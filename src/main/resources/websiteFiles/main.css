@@ -1,0 +1,23 @@
+:root {
+    --primary-color: red;
+}
+
+body {
+    margin: 10px;
+    min-width: 350px;
+}
+
+#java-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.digit {
+    position: absolute;
+    font-family: monospace;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
+    pointer-events: none; /* these digits not selectable */
+    opacity: 1;
+}
